@@ -153,7 +153,7 @@ class MinimaxAgent(MultiAgentSearchAgent):
             Returns the total number of agents in the game
         """
         "*** YOUR CODE HERE ***"
-        numberOfGhosts = gameState.getNumAgents() - 1
+        
 
         def maxLevel(gameState, depth):
           curDepth = depth + 1
